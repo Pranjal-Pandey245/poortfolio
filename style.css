@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding-top: 800px;
+    text-align:center;
 }
 
 .profile {
@@ -88,9 +89,17 @@ p {
     padding-left:9px;
     padding-right:9px;
     padding-bottom:5px;
-    font-family:cursive;
     font-size:24px;
 }
 .links:hover{
     background-color:blue;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.articles:hover{
+    color:aqua;
 }
